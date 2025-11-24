@@ -96,8 +96,9 @@ You can adjust these parameters in the code:
 ## Example
 
 ```python
-# Update the CSV file path
-csv_file = 'your_spectrogram_data.csv'
+# Update the input and output directory path
+input_dir = "./data"
+output_dir = "./output"
 
 # Run the script
 python3 radon_analysis_improved.py
